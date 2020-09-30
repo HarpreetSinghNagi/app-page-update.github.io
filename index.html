@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===========================bootstrap css========================================================== -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!-- ===========================mian css=================================================================== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ==============================fontawesome css ======================================================= -->
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+    <!-- ==================================main js================================================================ -->
+   <script src="app.js"></script>
+   <!-- =======================================bootstrap js ========================================================== -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+    <title>APP</title>
+</head>
+<body id="color" >
+<!-- =======================================nav-bar-start================================================================= -->
+    <div class="nav-section">
+        <span class="nav-toggle-btn"  ><i onclick="opeslide()"  class="fas fa-bars "></i></span>
+        <a class="nav-logo" href="#"><h1 >Fun Learning Zone</h1></a>
+        <a class="nav-search" href=""><i class="fas fa-search "></i></a>
+        <a class="nav-login" href="">Log in</a>
+        <a class="nav-signin" href="">Sign up</a>
+
+    </div>
+   
+
+    <div class="section-slide" id="open">
+        <i onclick="closeslide()"  class="fas fa-times"></i>
+    </div>
+        <!-- =======================================nav-bar-end================================================================= -->
+
+        <!-- =========================ele icon start============================================= -->
+    <div class="ele-list">
+        <ul>
+            <li><i class="fas fa-home"></i></li>
+            <li><i class="fas fa-user-circle"></i></li>
+            <li><i class="fas fa-video"></i></li>
+            <li><i  class="fas fa-dollar-sign"></i></li>
+            <li><i onclick="changecolor()" class="fas fa-palette"></i></li>
+        </ul>
+    </div>
+
+    <!-- ===================================ele icon end ============================================ -->
+
+
+    <!-- ======================================vedio section start  ===================================== -->
+    <div class="container-fluid">
+       <img src="images/video-pic.PNG" alt="">
+    </div>
+
+<!-- ================================================vedio section end ==================================== -->
+<h5 class="see-text">see all</h5>
+<!-- ===============================================side section start ======================================= -->
+    <div class="categories-section">
+
+        
+    <div class="categories_slider">
+        <div class="slider_container">
+            <div class="item">
+                <a href=""> <div id="color-box" class="box-categories"><h6 id="color-text"><i class="fas fa-globe-europe"></i>&nbspASTROLOGY</h6></div></a> 
+                
+            </div>
+
+            <div class="item">
+                <a href=""> <div id="color1-box"  class="box-categories"> <h6 id="color1-text"><i class="fas fa-desktop"></i> TECH</h6></div></a> 
+               
+            </div>
+
+            <div class="item">
+                <a href=""> <div id="color2-box" class="box-categories">  <h6 id="color2-text"><i class="fas fa-chess-knight"></i>&nbspGAMES</h6></div></a> 
+             
+            </div>
+
+            <div class="item">
+                <a href=""><div id="color3-box" class="box-categories"><h6 id="color3-text"><i class="fas fa-chess-knight"></i>&nbspGAMES</h6></div> </a> 
+             
+            </div>
+
+            <div class="item">
+              <a href=""> <div id="color4-box" class="box-categories"><h6 id="color4-text"><i class="fas fa-globe-europe"></i> ASTROLOGY</h6></div></a> 
+               
+            </div>
+
+            
+        </div>
+
+
+
+
+
+
+        <div class="slider_container2">
+            <div class="item">
+                <a href=""> <div id="color5-box" class="box-categories"><h6 id="color5-text" ><i class="fas fa-globe-europe"></i> ASTROLOGY</h6></div></a> 
+                
+            </div>
+
+            <div class="item">
+                <a href=""> <div id="color6-box" class="box-categories"> <h6 id="color6-text"><i class="fas fa-desktop"></i> TECH</h6></div></a> 
+               
+            </div>
+
+            <div class="item">
+                <a href=""> <div id="color7-box" class="box-categories">  <h6 id="color7-text"><i class="fas fa-chess-knight"></i> GAMES</h6></div></a> 
+             
+            </div>
+
+            <div class="item">
+                <a href=""><div id="color8-box" class="box-categories"><h6 id="color8-text"><i class="fas fa-chess-knight"></i> GAMES</h6></div> </a> 
+             
+            </div>
+
+           
+
+            
+        </div>
+    </div>
+
+
+
+
+    
+
+
+
+    </div>
+
+<!-- ==================================slide start end ============================================ -->
+
+
+<!-- ==========================================image section start =================================== -->
+
+    <div class="horizontal_slider">
+        <div class="slider_container">
+            <div class="item">
+                <a href=""> <img src="images/karlis-reimanis-Y31Z6Mf7rys-unsplash.jpg" alt=""></a> 
+                <h6>ASTROLOGY</h6>
+            </div>
+
+            <div class="item">
+                <a href=""> <img src="images/alex-kondratiev-yS3XM9qx3hQ-unsplash.jpg" alt=""></a> 
+                <h6>TECHNOLOGY</h6>
+            </div>
+
+            <div class="item">
+                <a href=""> <img src="images/deva-darshan-ILMMu2YhtcQ-unsplash.jpg" alt=""></a> 
+                <h6> <i class="fas fa-dollar-sign"></i>  GAMES</h6> 
+            </div>
+
+            <div class="item">
+                <a href=""> <img src="images/gery-wibowo-Eti6ph51H4A-unsplash.jpg" alt=""></a> 
+                <h6>LEARNING</h6>
+            </div>
+
+            <div class="item">
+              <a href=""> <img src="images/karlis-reimanis-Y31Z6Mf7rys-unsplash.jpg" alt=""></a> 
+                <h6>ASTROLOGY</h6>
+            </div>
+        </div>
+    </div>
+
+<!-- =====================================image section end ==============================================  -->
+
+
+
+
+<h5>Short and sweet courses for you</h5>
+
+
+<!-- ==========================================course-vedio section start =================================== -->
+
+<div class="row">
+    <img src="https://images.unsplash.com/photo-1601435965172-187cc9429d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <div class="shadow">
+        <h5>The Complete Course</h5>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+        <button>Enroll</button>
+    </div>
+    <i class=" play-icon far fa-play-circle"></i>
+</div>
+
+<div class="row">
+    <img src="https://images.unsplash.com/photo-1601435965172-187cc9429d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <div class="shadow">
+        <h5>The Complete Course</h5>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+        <button>Enroll</button>
+    </div>
+    <i class=" play-icon far fa-play-circle"></i>
+</div>
+
+<div class="row">
+    <img src="https://images.unsplash.com/photo-1601435965172-187cc9429d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <div class="shadow">
+        <h5>The Complete Course</h5>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+        <button>Enroll</button>
+    </div>
+    <i class=" play-icon far fa-play-circle"></i>
+</div>
+
+<div class="row">
+    <img src="https://images.unsplash.com/photo-1601435965172-187cc9429d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <div class="shadow">
+        <h5>The Complete Course</h5>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+        <button>Enroll</button>
+    </div>
+    <i class=" play-icon far fa-play-circle"></i>
+</div>
+
+
+    
+  <!-- ========================================footer end ===============================================   -->
+</body>
+</html>
